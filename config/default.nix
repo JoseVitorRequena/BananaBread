@@ -2,7 +2,7 @@
 
 {
 	imports = [
-		./imports.nix
+		./bufferline.nix
 	];
 
 	colorschemes.gruvbox.enable = true;
@@ -26,10 +26,10 @@
 			};
 		};
 
-		nvim-cmp = {
+		cmp = {
 			enable = true;
 			autoEnableSources = true;
-			sources = [
+			settings.sources = [
 			{name = "nvim_lsp";}
 			{name = "path";}
 			{name = "buffer";}
