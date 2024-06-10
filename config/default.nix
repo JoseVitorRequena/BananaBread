@@ -2,7 +2,7 @@
 
 {
 	imports = [
-		./bufferline.nix
+		./imports.nix
 	];
 
 	colorschemes.gruvbox.enable = true;
