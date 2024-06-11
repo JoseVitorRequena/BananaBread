@@ -1,5 +1,5 @@
 {
-  description = "A nixvim configuration";
+  description = "BananaBread is Spykeproto's fuel";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
